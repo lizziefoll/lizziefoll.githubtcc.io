@@ -386,7 +386,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: #F4D160;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -495,7 +495,7 @@ h6 {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #6c757d;
+  color: black;
   content: "/";
 }
 
