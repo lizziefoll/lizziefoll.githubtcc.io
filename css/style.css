@@ -74,12 +74,12 @@ h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: rgba(52, 59, 64, 0.9);
+  background: #F4D160;
 }
 
 
-#header.header-transparent {
-  background: transparent;
+#header.header{
+  background-color: #F4D160;
 }
 
 #header.header-scrolled {
@@ -180,7 +180,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #F4D160;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -239,7 +239,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #666666;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -283,7 +283,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #F4D160;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -324,7 +324,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #F4D160;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -431,7 +431,7 @@ h6 {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: whitesmoke;
+  background-color: #F4D160;
   min-height: 40px;
   margin-top: 92px;
 }
