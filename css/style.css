@@ -8,7 +8,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  box-sizing: border-box; 
 }
 
 body{
@@ -24,6 +23,7 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+  
 }
 
 a {
@@ -54,7 +54,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-
+  color: #666666;
 }
 
 
@@ -381,8 +381,8 @@ h6 {
   position: absolute;
   bottom: 0;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 20px;
+  right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -430,7 +430,7 @@ h6 {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
+  padding: 30px 0;
   background-color: #F4D160;
   min-height: 40px;
   margin-top: 92px;
@@ -512,7 +512,7 @@ h6 {
   
   .details .content ul i {
     flex-direction: center;
-    font-size: 24px;
+    font-size: 30px;
     padding-right: 2px;
     color: #A8DF8E;
     line-height: 0;
@@ -782,6 +782,7 @@ Portfolio
 }
 
 .portfolio-details .portfolio-description h2 {
+  margin-top: 30px;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -850,37 +851,34 @@ Portfolio
   
 /*SERVICE SECTION*/
 .service_section .heading_container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 25px;
-  }
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
   
-  .service_section .box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    margin: 15px 0;
-    width: 85%;
-  } 
-  .box h4 {
-    margin-top: 5px;
-  }
-  
-  .service_section .box a {
-    padding: 6px 25px;
-    border: 1px solid #2dca98;
-    color: #2dca98;
-    text-transform: uppercase;
-  }
+.service_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 15px 0;
+  width: 85%;
+} 
 
+
+.service_section .box a {
+  padding: 6px 25px;
+  border: 1px solid #2dca98;
+  color: #2dca98;
+  text-transform: uppercase;
+}
 
 
 /*--------------------------------------------------------------
