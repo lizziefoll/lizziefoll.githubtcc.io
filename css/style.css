@@ -612,7 +612,7 @@ h6 {
   line-height: 1;
   transition: all 0.3s ease-in-out;
 }
-recomend
+
 .recomend .recomend-flters li:hover,
 .recomend .recomend-flters li.filter-active {
   color: var(--color-primary);
@@ -973,4 +973,30 @@ recomend
   align-items: center;
 }
 
+/*** Back to top Button ***/
+.btn {
+  margin-left: 1300px;
+  margin-top: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+.btn.btn-primary{
+  color: #FFFFFF;
+}
+
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  border-radius: 2px;
+}
 /*Footer end*/
