@@ -146,7 +146,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: #F4D160;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(244, 209, 96, 1);
   transition: 0.3s;
 }
 
@@ -314,7 +314,6 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
-
   /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -370,3 +369,121 @@ h6 {
       display: inline-block;
     }
   }
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  font-size: 14px;
+  background-color: var(--color-primary);
+  padding: 50px 0;
+  color: #666666;
+}
+
+.footer .footer-info .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #666666;
+  font-family: var(--font-primary);
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: #666666;
+  margin-right: 20px;
+  transition: 0.3s;
+  margin: 5px;
+}
+
+.footer .social-links i {
+  margin: 0;
+}
+
+.footer .social-links a:hover {
+  color: #2dc997;
+  border-color: #2dc997;
+}
+
+
+.footer .footer-links {
+  margin-bottom: 60px;
+}
+
+
+.footer .footer-links ul a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-links ul a:hover {
+  color: #666666;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .credits {
+  padding-top: 4px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer .credits a {
+  color: #666666;
+}
+
+.footer img{
+  border-radius: 25px;
+}
+
+.footer img{
+  border-radius: 25px;
+  margin:auto; 
+  width:200px;
+  align-items: center;
+}
+
+/*** Back to top Button ***/
+.btn {
+  margin-left: 1300px;
+  margin-top: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+.btn.btn-primary{
+  color: #FFFFFF;
+}
+
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  border-radius: 2px;
+}
+/*Footer end*/
