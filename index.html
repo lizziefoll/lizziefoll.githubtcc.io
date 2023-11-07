@@ -40,13 +40,14 @@
       <!-- Inicio da navbar -->
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Início</a></li>
+          <li><a class="nav-link scrollto" href="#hero">Início</a></li>
           <li><a class="nav-link scrollto" href="#pessoa">Para a pessoa</a></li>
           <li><a class="nav-link scrollto" href="#familia">Para a família</a></li>
           <li><a class="nav-link scrollto " href="#conhecidos">Para amigos/conhecidos</a></li>
           <li><a class="nav-link scrollto " href="#frequentes">Perguntas Frequentes</a></li>
           <li><a class="nav-link scrollto " href="#recomendacoes">Recomendações</a></li>
           <li><a class="nav-link scrollto " href="#VF">Verdadeiro ou Falso</a></li>
+          <li><a class="nav-link scrollto " href="#cont">Nosso Contato</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- Fim da navbar -->
@@ -312,8 +313,7 @@
       <h2>Nossas Recomendações</h2>
       <p>Aqui vão algumas recomendações de filmes, séries e livros que falam sobre o TEA</p>
     </div>
-    <div class="recomend-isotope" data-recomend-filter="*" data-recomend-layout="masonry" data-recomend-sort="original-order" data-aos="fade-up" data-aos-delay="100">
-      <div>
+    <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
         <ul class="recomend-flters">
           <li data-filter="*" class="filter-active">Tudo</li>
           <li data-filter=".filter-filmes">Filmes</li>
@@ -550,7 +550,7 @@
 <!-- ======= Footer ======= -->
 <footer id="footer" class="footer">
   <div class="container">
-    <div class="row gy-4">
+    <div class="row gy-4" id="cont">
       <div class="col-md-6">
         <div class="text-center mx-auto" style="width: 400px;">
           <img src="assets/img/Elisabeth1.jpg" class="img-fluid" alt="Elisabeth">
@@ -579,8 +579,10 @@
       Designed by Elisabeth
     </div>
   </div>
+</div>
 <!--Botão voltar para o início-->
-<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top fade-left"><i class="bi bi-arrow-up"></i></a>
+<div>
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 </div>
 </footer>
 <!-- End Footer -->
